@@ -3,12 +3,12 @@
 
 @font-face{
     font-family: "friends";
-    src: url("/src/fonts/friends.TTF");
+    src: url("../src/fonts/friends.TTF");
   }
 
   @font-face{
     font-family: "Perk";
-    src: url("/src/fonts/Sunday_Best.ttf");
+    src: url("../src/fonts/Sunday_Best.ttf");
   }
 
 *{
