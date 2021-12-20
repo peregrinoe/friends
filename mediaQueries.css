@@ -1,0 +1,102 @@
+
+@media only screen and (max-width: 650px) {
+    .navbarmenu{
+        background-color: #14ac7d;
+        position: relative;
+        min-height: 60px;
+        max-height: 60px;
+    }
+
+    .navbar .menu-navbar{
+        display: block;
+        grid-column: 8 / 9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    .navbar .list-navbar{
+        padding: 15px 15px;
+        position: absolute;
+        height: 30vh;
+        display: grid;
+        align-items: center;
+        background-color: #14ac7d;
+        margin-top: 25em;
+        transform: translatey(-500%);
+
+    }
+
+    .navbar .list-navbar-toggle{
+        transform: translatey(-170%);
+        transition: all 1s; 
+    }
+
+    .hero span{
+        font-family: "friends";
+        color: #fefefe;
+        font-size: .8em;
+    }
+    
+    .hero span.friends{
+        font-family: "friends";
+        color: #fefefe;
+        -webkit-text-stroke: .6px black;
+        font-size: 1em;
+    }
+
+    .hero .hero-h1{
+        margin: 20px;
+    }
+    
+    .hero .hero-p{
+        margin: 15px;
+    }
+    
+    .hero .btn{
+        margin: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 433px) {
+
+    .hero span{
+        font-family: "friends";
+        color: #fefefe;
+        font-size: .4em;
+    }
+    
+    .hero span.friends{
+        font-family: "friends";
+        color: #fefefe;
+        -webkit-text-stroke: .01px black;
+        font-size: .5em;
+    }
+
+    .navbar .list-navbar-toggle{
+        transform: translatey(-200);
+        transition: all 1s; 
+    }
+
+    .hero .hero-h1{
+        margin: 10px;
+    }
+    
+    .hero .hero-p{
+        margin: 10px;
+    }
+    
+    .hero .btn{
+        margin: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 335px) {
+
+    .hero .hero-items{
+        grid-row: 2 / 3;
+
+    }
+
+}

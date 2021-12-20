@@ -1,0 +1,200 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200&display=swap');
+
+@font-face{
+    font-family: "friends";
+    src: url("/src/fonts/friends.TTF");
+  }
+
+  @font-face{
+    font-family: "Perk";
+    src: url("/src/fonts/Sunday_Best.ttf");
+  }
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Menú */
+.navbarmenu{
+    background-color: #14ac7d;
+    display: grid;
+    min-height: 60px;
+    max-height: 60px;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+.logo{
+    grid-column: 2 / 3;
+}
+
+.navbar .logo{
+    width: 50px;
+    height: 50px;
+}
+
+.list-navbar{
+    display: flex;
+    justify-content: space-between;
+    grid-column: 5 / 8;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    align-items: center;
+    text-align: center;
+    align-content: center; 
+}
+
+.navbar .list-navbar a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .menu-navbar{
+    display: none;
+    grid-column: 8 / 9;
+    padding: 5px 5px;
+    color: #ffffff;
+}
+
+/* Hero */
+.hero {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background-image: linear-gradient(rgba(16,16,16,.6), rgba(16,16,16,.9)), url(https://external-preview.redd.it/VjlbH_Q_DyF7wngFKxMAe4eSdhyHh5Tl85pUNtJMMdg.png?format=pjpg&auto=webp&s=7e7caa6b96d6ed1411b62236aec2073913c1f56e);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    min-height:100%;
+}
+
+.hero .hero-items{
+    width: 90%;
+    margin: auto;
+    grid-column: 2 / 8;
+    grid-row: 2 / 6;
+    list-style: none;
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+}
+
+
+.hero p{
+    color: #ffffff;
+    
+}
+
+.hero .hero-h1{
+    grid-column: 2 / 8 ;
+    grid-row: 1 / 2;
+    margin: 20px;
+}
+
+.hero .hero-p{
+    grid-column: 2 / 8 ;
+    grid-row: 3 / 4;
+    margin: 20px;
+}
+
+.hero .btn{
+    padding: 10px 15px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #18c38f, #035239);
+    text-align: center;
+    grid-column: 2 / 4 ;
+    grid-row: 5 / 6;
+    margin: 25px;
+}
+
+.hero .btn:hover{
+    background: #035239;
+}
+
+.hero .btn a {
+    font-family: "Perk";
+    color: #ffffff;    
+}
+
+.hero h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    color: #fefefe;
+    font-size: 2em;
+}
+
+.hero span{
+    font-family: "friends";
+    color: #fefefe;
+    font-size: 1.2em;
+}
+
+.hero span.friends{
+    font-family: "friends";
+    color: #fefefe;
+    -webkit-text-stroke: .01px black;
+    font-size: 1.4em;
+}
+
+.hero span.red{
+    font-family: "friends";
+    color: #ea181e;
+}
+
+.hero span.blue{
+    font-family: "friends";
+    color: #00b3e8;
+}
+
+.hero span.yellow{
+    font-family: "friends";
+    color: #fabd0f;
+}
+
+/* Sección clientes u otros tests*/
+
+.clients{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #ffecb3;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+}
+
+.clients-items{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    grid-column: 2 / 8;
+    grid-row: 1 / 4;
+    list-style: none;
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+}
+
+.clients h2{
+    font-weight: medium;
+    color: #da1d16;
+    font-size: 1.5em;
+
+}
