@@ -131,8 +131,9 @@
 
 .container-right-items{
     display: grid;
-    grid-template-rows: .3fr 1fr 2.2fr 2fr;
+    grid-template-rows: .2fr 1.3fr 1fr 2fr;
     margin: 50px;
+    height: 700px;
 }
 
 .titule {
@@ -144,6 +145,7 @@
 
 }
 
+
 .question{
     justify-self: center;
     color: #555353;
@@ -153,11 +155,17 @@
     font-size: 1.2em;
     font-weight: bold;
 }
-
+   
 .image{
-    background-color: darkmagenta;
-    margin: 5px 0px;
-}   
+    margin-left: 2px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    justify-self: center;
+    object-fit: cover;
+    width: 80%;
+    max-height: 400px;
+}
 
 .answer{
     display: grid;
