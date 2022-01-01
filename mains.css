@@ -17,6 +17,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    transition: all .7s;
 }
 
 /*Menú*/
@@ -165,9 +166,13 @@
     justify-self: center;
     margin: auto 0px;
     width: 90%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 10px;
     height: 3em;
     border-radius: 10px;
     background-color: aquamarine;
+}
+
+.btn:hover{
+    background-color: darkblue;
+    cursor: pointer;
 }
