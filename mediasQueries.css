@@ -1,4 +1,4 @@
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 850px) {
     .navbarmenu{
         background-color: #3d9974;
         position: relative;
@@ -9,7 +9,6 @@
     .container{
         display: grid;
         grid-template-columns: 1fr;
-        height: 100vh;
     }
 
     .container-left{
@@ -21,6 +20,7 @@
         margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 30px;
         padding: 10px 10px;
         border-radius: 15px;
         width: 90%;
@@ -38,11 +38,7 @@
         grid-template-columns: 1fr;
     }
 
-    .btn{
-        
-    }
 }    
-
 
 @media only screen and (max-width: 500px) {
     .container-right-items{
