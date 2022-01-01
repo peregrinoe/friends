@@ -89,7 +89,7 @@
     }
 
     .container-right-items{
-        grid-template-rows: .4fr 1fr 2fr 1.6fr;
+        grid-template-rows: .2fr .8fr 2fr 1.6fr;
     }
   
     .question{
