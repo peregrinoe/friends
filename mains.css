@@ -174,10 +174,11 @@
     font-size: 14px;
     padding: 10px 10px;
     border-radius: 10px;
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 212);
 }
 
 .btn:hover{
-    background-color: darkblue;
+    background-color: rgb(3, 119, 90);
+    color: #f0f0f0f0;
     cursor: pointer;
 }
