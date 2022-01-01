@@ -1,0 +1,141 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200&display=swap');
+
+@font-face{
+    font-family: "friends";
+    src: url("/src/fonts/friends.TTF");
+  }
+
+  @font-face{
+    font-family: "Perk";
+    src: url("/src/fonts/Sunday_Best.ttf");
+  }
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*Menú*/
+/*#3d9974  Verde*/
+/*#e59d8f*/
+/*#ad694a*/
+/*#ecd30b*/
+/*#e35a7d*/
+/*#ee4a62*/
+/*#8f3a3f*/
+/*#30bac7*/
+/*#2433b3*/
+/*#d180ab*/
+/*#8f3740*/
+/*#9ac91e*/
+/*#d4e2a8*/
+/*#f645b1*/
+/*#1cb7e4  Azul*/
+/*#e85a16*/
+
+.navbarmenu{
+    background-color: #3d9974;
+    display: grid;
+    min-height: 30px;
+    max-height: 30px;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: grid;
+}
+
+.list-navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    align-items: center;
+    text-align: center;
+    align-content: center; 
+}
+
+.navbar .list-navbar a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container{
+    background: linear-gradient(to bottom, #3d9974, #1cb7e4);
+    display: grid;
+    grid-template-columns: .7fr 1.3fr;
+    height: 95vh;
+}
+
+.container-left{
+    background-color: #c9b8b875;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    height: 80vh;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.container-left-items{
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.container-left-items span{
+    font-family: "friends";
+    color: #fefefe;
+    font-size: 2em;
+}
+
+.container-left-items span.friends{
+    font-family: "friends";
+    color: #000000;
+    -webkit-text-stroke: .01px black;
+    font-size: 3em;
+}
+
+.container-left-items span.red{
+    font-family: "friends";
+    color: #ea181e;
+}
+
+.container-left-items span.blue{
+    font-family: "friends";
+    color: #00b3e8;
+}
+
+.container-left-items span.yellow{
+    font-family: "friends";
+    color: #fabd0f;
+}
+
+.container-right{
+    display: grid;
+    background-color: #c5c5c5;
+    border-top-left-radius: 20px;
+    box-shadow: 5px 5px 25px #222222b0;
+
+}
+
+.container-right-items{
+    display: grid;
+    grid-template-rows: .5fr 1fr 2.5fr 2fr;
+    background-color: #0f0f0f;
+    margin: 50px;
+}
+
+.titule {
+    background-color: #00b3e8;
+}

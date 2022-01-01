@@ -1,0 +1,44 @@
+@media only screen and (max-width: 675px) {
+    .navbarmenu{
+        background-color: #3d9974;
+        position: relative;
+        min-height: 30px;
+        max-height: 30px;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+
+    .container-left{
+        display: none;
+    }
+
+    .container-right{
+        display: grid;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        border-radius: 20px;
+        width: 90%;
+        height: 90vh;
+
+    }
+
+    .container-right-items{
+        display: grid;
+        grid-template-rows: .5fr 1fr 2.5fr 3fr;
+        margin: 20px;
+    }
+
+}    
+
+@media only screen and (max-width: 500px) {
+    .container-right-items{
+        margin: 10px;
+    }
+
+}    
