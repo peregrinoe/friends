@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    transition: all .7s;
+    transition: all .5s;
 }
 
 /*Menú*/
@@ -126,7 +126,7 @@
     display: grid;
     background-color: #fefefe;
     border-top-left-radius: 20px;
-    box-shadow: 5px 5px 25px #222222b0;
+    box-shadow: 5px 5px 20px #222222b0;
 
 }
 
@@ -153,6 +153,11 @@
     font-weight: bold;
 }
 
+.image{
+    background-color: darkmagenta;
+    margin: 5px 0px;
+}   
+
 .answer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -166,8 +171,8 @@
     justify-self: center;
     margin: auto 0px;
     width: 90%;
+    font-size: 14px;
     padding: 10px 10px;
-    height: 3em;
     border-radius: 10px;
     background-color: aquamarine;
 }
