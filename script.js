@@ -1,5 +1,9 @@
 let db_question = readText("questions.json")
 let interprete_db = JSON.parse(db_question)
+let pregunta
+let posibles_respuestas
+let btn_corresponde
+
 chooseQuestionRandom()
 
 //Escoger pregunta aleatoria 
@@ -11,16 +15,31 @@ function chooseQuestion(n) {
     pregunta = interprete_db[n]
     select_id("temporada").innerHTML = pregunta.temporada
     select_id("question").innerHTML = pregunta.pregunta
-    select_id("btn1").innerHTML = pregunta.respuesta
-    select_id("btn2").innerHTML = pregunta.incorrecta1
-    select_id("btn3").innerHTML = pregunta.incorrecta2
-    select_id("btn4").innerHTML = pregunta.incorrecta3
+    randomizeQuestion(pregunta)
     select_id("image").setAttribute("src",pregunta.image)
 }
+//Arreglo de botones
 //Desordenar las preguntas 
-function randomizeQuestion() {
-    
+function randomizeQuestion(pregunta) {
+    posibles_respuestas = [
+        pregunta.respuesta,
+        pregunta.incorrecta1,
+        pregunta.incorrecta2,
+        pregunta.incorrecta3
+    ]
+    posibles_respuestas.sort(()=>Math.random()-0.5)
+    select_id("btn1").innerHTML = posibles_respuestas[0]
+    select_id("btn2").innerHTML = posibles_respuestas[1]
+    select_id("btn3").innerHTML = posibles_respuestas[2]
+    select_id("btn4").innerHTML = posibles_respuestas[3]
 }
+//
+//Oprimir Boton
+function oprimir_btn(i) {
+    console.log(posibles_respuestas[i])
+}
+
+
 //Selección de objeto según Id
 function select_id(id) {
     return document.getElementById(id)
