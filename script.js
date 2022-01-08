@@ -11,9 +11,9 @@ let btn_correspondiente = [
     select_id("btn2"),
     select_id("btn3"),
     select_id("btn4")
-]
+];
 let npreguntas = [];
-let preguntas_hechas = 0;
+let preguntas_hechas = 1;
 let preguntas_correctas = 0;
 
 chooseQuestionRandom()
@@ -32,7 +32,14 @@ function chooseQuestionRandom() {
       }
       if (npreguntas.length == interprete_db.length) {
 //Aquí es donde el juego se reinicia
-
+        if (mostrar_pantalla_juego_términado) {
+            swal.fire({
+            title: "Juego finalizado",
+            text:
+                "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas - 1),
+            icon: "success"
+            });
+        }
         if (reiniciar_puntos_al_reiniciar_el_juego) {
           preguntas_correctas = 0
           preguntas_hechas = 0
@@ -80,7 +87,12 @@ function randomizeQuestion(pregunta) {
 }
 //
 //Oprimir Boton
+let suspender_botones = false;
 function oprimir_btn(i) {
+    if (suspender_botones) {
+        return;
+    }
+    suspender_botones = true;
     if(posibles_respuestas[i]==pregunta.respuesta) {
         preguntas_correctas++;
         btn_correspondiente[i].style.background = "#6fc36d"
@@ -97,7 +109,8 @@ function oprimir_btn(i) {
         }
     }
     setTimeout(()=> {
-      restartColors()  
+      restartColors();
+      suspender_botones = false; 
     },1000);  
 }
 //Reiniciar colores
@@ -105,11 +118,9 @@ function restartColors() {
     for (const btn of btn_correspondiente){
         btn.style.background = "#f5e458"
         btn.style.color = "#0e0e0e"
-    chooseQuestionRandom()
     }
-
+    chooseQuestionRandom();
 }
-
 //Selección de objeto según Id
 function select_id(id) {
     return document.getElementById(id)

@@ -18,5 +18,25 @@
         "incorrecta3":"Episodio 1, Temporada 2",
         "image":"https://imgix.bustle.com/rehost/2016/9/13/691782b9-d2fc-41f9-94ec-f3963f156092.png?w=800&fit=crop&crop=faces&auto=format%2Ccompress",
         "object_fit":"cover"
+    },
+    {   
+        "temporada":"Temporada 1",
+        "pregunta":"¿En qué episodio aparece por primera vez Naked Guy?",
+        "respuesta":"Episodio 2, Temporada 1",
+        "incorrecta1":"Episodio 1, Temporada 1",
+        "incorrecta2":"Episodio 2, Temporada 2",
+        "incorrecta3":"Episodio 1, Temporada 2",
+        "image":"https://www.nydailynews.com/resizer/_HKMNNS16hw8UPeLGDK2gmdFgh8=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/LSFM5P7ZUSEKBDDOTQH4CMIY7E.jpg",
+        "object_fit":"cover"
+    },
+    {   
+        "temporada":"Temporada 1",
+        "pregunta":"¿En cual episodio menciona Phoebe a su hermana Úrsula?",
+        "respuesta":"Episodio 2, Temporada 1",
+        "incorrecta1":"Episodio 1, Temporada 1",
+        "incorrecta2":"Episodio 2, Temporada 2",
+        "incorrecta3":"Episodio 1, Temporada 2",
+        "image":"https://imgix.bustle.com/rehost/2016/9/13/691782b9-d2fc-41f9-94ec-f3963f156092.png?w=800&fit=crop&crop=faces&auto=format%2Ccompress",
+        "object_fit":"cover"
     }
 ]
