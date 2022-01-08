@@ -42,7 +42,7 @@ function chooseQuestionRandom() {
         }
         if (reiniciar_puntos_al_reiniciar_el_juego) {
           preguntas_correctas = 0
-          preguntas_hechas = 0
+          preguntas_hechas = 1
         }
         npreguntas = [];
       }
