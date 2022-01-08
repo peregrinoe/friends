@@ -8,10 +8,6 @@
     }
 }
 
-.container-right-items{
-    justify-self: center;
-}
-
 
 @media only screen and (max-width: 1250px) {
     .container-left-items span{
@@ -35,7 +31,6 @@
 
 @media only screen and (max-width: 885px) {
     .navbarmenu{
-        background-color: #3d9974;
         position: relative;
         min-height: 30px;
         max-height: 30px;
@@ -92,7 +87,4 @@
         grid-template-rows: .2fr .8fr 2fr 1.6fr;
     }
   
-    .question{
-        font-size: 1em;
-    }
 }    

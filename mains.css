@@ -39,7 +39,7 @@
 /*#e85a16*/
 
 .navbarmenu{
-    background-color: #3d9974;
+    background-color: #8a6cc8;
     display: grid;
     min-height: 30px;
     max-height: 30px;
@@ -69,13 +69,13 @@
 }
 
 .container{
-    background: linear-gradient(to bottom, #3d9974, #1cb7e4);
+    background: linear-gradient(to bottom, #8a6cc8, #f5e458);
     display: grid;
     grid-template-columns: .7fr 1.3fr;
 }
 
 .container-left{
-    background-color: #c9b8b875;
+    background-color: #fefefe3b;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 40px;
@@ -84,6 +84,7 @@
     margin-top: 50px;
     margin-left: auto;
     margin-bottom: 30px;
+    backdrop-filter: blur(30px);
 }
 
 .container-left-items{
@@ -101,7 +102,7 @@
 
 .container-left-items span.friends{
     font-family: "friends";
-    color: #000000;
+    color: #e0e0e0;
     -webkit-text-stroke: .01px black;
     font-size: 3em;
 }
@@ -148,11 +149,11 @@
 
 .question{
     justify-self: center;
-    color: #555353;
+    color: #8a6cc8;
     width: 95%;
     margin: auto 0px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
 }
    
@@ -170,7 +171,6 @@
 .answer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
@@ -184,11 +184,11 @@
     font-size: 14px;
     padding: 10px 10px;
     border-radius: 10px;
-    background-color: rgb(127, 255, 212);
+    background-color: #f5e458;
 }
 
 .btn:hover{
-    background-color: rgb(3, 119, 90);
+    background-color: #f1af40;
     color: #f0f0f0f0;
     cursor: pointer;
 }
