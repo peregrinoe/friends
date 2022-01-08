@@ -2,7 +2,12 @@ let db_question = readText("questions.json")
 let interprete_db = JSON.parse(db_question)
 let pregunta
 let posibles_respuestas
-let btn_corresponde
+let btn_correspondiente = [
+    select_id("btn1"),
+    select_id("btn2"),
+    select_id("btn3"),
+    select_id("btn4")
+]
 
 chooseQuestionRandom()
 
@@ -36,10 +41,27 @@ function randomizeQuestion(pregunta) {
 //
 //Oprimir Boton
 function oprimir_btn(i) {
-    console.log(posibles_respuestas[i])
+    if(posibles_respuestas[i]==pregunta.respuesta) {
+        btn_correspondiente[i].style.background = "#6fc36d"
+        btn_correspondiente[i].style.color = "white"
+    }
+    else {
+        btn_correspondiente[i].style.background = "#d14848"
+        btn_correspondiente[i].style.color = "white"
+    }
+    setTimeout(()=> {
+      restartColors()  
+    },1000);  
 }
+//Reiniciar colores
+function restartColors() {
+    for (const btn of btn_correspondiente){
+        btn.style.background = "#f5e458"
+        btn.style.color = "#0e0e0e"
 
+    }
 
+}
 //Selección de objeto según Id
 function select_id(id) {
     return document.getElementById(id)

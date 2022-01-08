@@ -20,24 +20,6 @@
     transition: all .3s;
 }
 
-/*Menú*/
-/*#3d9974  Verde*/
-/*#e59d8f*/
-/*#ad694a*/
-/*#ecd30b*/
-/*#e35a7d*/
-/*#ee4a62*/
-/*#8f3a3f*/
-/*#30bac7*/
-/*#2433b3*/
-/*#d180ab*/
-/*#8f3740*/
-/*#9ac91e*/
-/*#d4e2a8*/
-/*#f645b1*/
-/*#1cb7e4  Azul*/
-/*#e85a16*/
-
 .navbarmenu{
     background-color: #8a6cc8;
     display: grid;
@@ -185,10 +167,9 @@
     padding: 10px 10px;
     border-radius: 10px;
     background-color: #f5e458;
+    color: #0e0e0e;
 }
 
 .btn:hover{
-    background-color: #f1af40;
-    color: #f0f0f0f0;
     cursor: pointer;
 }
