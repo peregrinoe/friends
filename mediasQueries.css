@@ -42,8 +42,8 @@
         padding-top: 30px;
     }
 
-    .container-harry-potter{
-        display: grid;
+    .container-body-potter{
+        grid-template-columns: 1fr;
         padding-top: 30px;
         padding-bottom: 20px;
     }
