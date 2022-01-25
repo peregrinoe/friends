@@ -19,6 +19,9 @@
     text-decoration: none;
 }
 
+.background-body-potter{
+    background-color: #14ac7d;
+}
 /* Menú */
 .navbarmenu{
     background-color: #14ac7d;
@@ -69,6 +72,7 @@
     padding: 5px 5px;
     color: #ffffff;
 }
+
 
 /* Hero */
 .hero {

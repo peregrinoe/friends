@@ -20,13 +20,6 @@
     transition: all .3s;
 }
 
-.navbarmenu{
-    background-color: #8a6cc8;
-    display: grid;
-    min-height: 30px;
-    max-height: 30px;
-}
-
 .navbar{
     width: 90%;
     margin: auto;
@@ -54,6 +47,22 @@
     background: linear-gradient(to bottom, #8a6cc8, #f5e458);
     display: grid;
     grid-template-columns: .7fr 1.3fr;
+    padding-top: 30px;
+}
+
+.container-body-potter{
+    display: grid;
+    grid-template-columns: .7fr 1.3fr;
+    background: linear-gradient(to bottom, #6cc87b, #f5e458);
+    padding-top: 30px;
+}
+
+
+.container-one-piece{
+    display: grid;
+    grid-template-columns: .7fr 1.3fr;
+    background: linear-gradient(to bottom, #db0b0b, #f058f5);
+    padding-top: 30px;
 }
 
 .container-left{

@@ -39,7 +39,21 @@
     .container{
         display: grid;
         grid-template-columns: 1fr;
+        padding-top: 30px;
     }
+
+    .container-body-potter{
+        grid-template-columns: 1fr;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .container-one-piece{
+        grid-template-columns: 1fr;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
 
     .container-left{
         display: none;
