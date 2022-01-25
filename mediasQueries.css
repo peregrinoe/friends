@@ -40,6 +40,15 @@
         display: grid;
         grid-template-columns: 1fr;
         padding-top: 30px;
+<<<<<<< HEAD
+=======
+    }
+
+    .container-body-potter{
+        grid-template-columns: 1fr;
+        padding-top: 30px;
+        padding-bottom: 20px;
+>>>>>>> 74a448b8975c5bc30224662914ebee3296eccbe5
     }
 
     .container-body-potter{

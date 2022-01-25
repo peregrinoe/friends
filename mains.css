@@ -55,6 +55,7 @@
     grid-template-columns: .7fr 1.3fr;
     background: linear-gradient(to bottom, #6cc87b, #f5e458);
     padding-top: 30px;
+<<<<<<< HEAD
 }
 
 
@@ -63,6 +64,8 @@
     grid-template-columns: .7fr 1.3fr;
     background: linear-gradient(to bottom, #db0b0b, #f058f5);
     padding-top: 30px;
+=======
+>>>>>>> 74a448b8975c5bc30224662914ebee3296eccbe5
 }
 
 .container-left{
