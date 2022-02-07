@@ -30,25 +30,25 @@
 }
 
 @media only screen and (max-width: 885px) {
-    .navbarmenu{
-        position: relative;
-        min-height: 30px;
-        max-height: 30px;
-    }
 
     .container{
         display: grid;
         grid-template-columns: 1fr;
-        padding-top: 30px;
-<<<<<<< HEAD
-=======
+        padding-top: 0px;
     }
 
-    .container-body-potter{
-        grid-template-columns: 1fr;
-        padding-top: 30px;
-        padding-bottom: 20px;
->>>>>>> 74a448b8975c5bc30224662914ebee3296eccbe5
+    .container-middle{
+        display: grid;
+        background-color: #fefefe3b;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        border-bottom-left-radius:15px ;
+        border-bottom-right-radius:15px ;
+        height: 50px;
+        width: 70%;
+
     }
 
     .container-body-potter{

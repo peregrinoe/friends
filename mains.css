@@ -55,20 +55,22 @@
     grid-template-columns: .7fr 1.3fr;
     background: linear-gradient(to bottom, #6cc87b, #f5e458);
     padding-top: 30px;
-<<<<<<< HEAD
 }
-
 
 .container-one-piece{
     display: grid;
     grid-template-columns: .7fr 1.3fr;
     background: linear-gradient(to bottom, #db0b0b, #f058f5);
     padding-top: 30px;
-=======
->>>>>>> 74a448b8975c5bc30224662914ebee3296eccbe5
+}
+
+.container-middle{
+    display: none;
 }
 
 .container-left{
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr;
     background-color: #fefefe3b;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -131,6 +133,18 @@
     height: 700px;
 }
 
+.if-true{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #8a6cc8;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
 .titule {
     color: #555353;
     opacity: 0.8;
@@ -158,6 +172,14 @@
     object-fit: cover;
     width: 80%;
     max-height: 400px;
+}
+.image2{
+    border-radius: 20px;
+    margin-top: 40px;
+    background-size: cover;
+    background-position: center;
+    justify-self: center;
+    width: 95%;
 }
 
 .answer{
