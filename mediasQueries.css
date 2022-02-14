@@ -29,8 +29,31 @@
     }
 }
 
-@media only screen and (max-width: 885px) {
+.btn-start span{
+    font-size: 1.2em;
+    color: #0e0e0e;
+}
 
+.btn-start span.friends{
+    font-size: 1.2em;
+}
+
+.btn-start span.red{
+    font-family: "friends";
+    color: #ea181e;
+}
+
+.btn-start span.blue{
+    font-family: "friends";
+    color: #00b3e8;
+}
+
+.btn-start span.yellow{
+    font-family: "friends";
+    color: #fabd0f;
+}
+
+@media only screen and (max-width: 885px) {
     .container{
         display: grid;
         grid-template-columns: 1fr;

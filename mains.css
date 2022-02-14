@@ -43,6 +43,38 @@
     color: #ffffff;
 }
 
+.container-slide{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, #8a6cc8, #f5e458);
+    display: grid;
+}
+
+.info-quiz{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #fefefe3b;
+    border-radius: 20px;
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    backdrop-filter: blur(30px);
+}
+.info{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #8a6cc8;
+    font-weight: bolder;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.btn-start{
+    margin: auto;
+    font-size: 12px;
+    color: #0e0e0e !important;
+}
+
 .container{
     background: linear-gradient(to bottom, #8a6cc8, #f5e458);
     display: grid;
@@ -90,30 +122,29 @@
     text-align: center;
 }
 
-.container-left-items span{
+span{
     font-family: "friends";
     color: #fefefe;
     font-size: 2em;
 }
 
-.container-left-items span.friends{
+span.friends{
     font-family: "friends";
     color: #e0e0e0;
     -webkit-text-stroke: .01px black;
-    font-size: 3em;
 }
 
-.container-left-items span.red{
+span.red{
     font-family: "friends";
     color: #ea181e;
 }
 
-.container-left-items span.blue{
+span.blue{
     font-family: "friends";
     color: #00b3e8;
 }
 
-.container-left-items span.yellow{
+span.yellow{
     font-family: "friends";
     color: #fabd0f;
 }
