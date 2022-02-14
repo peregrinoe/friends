@@ -37,7 +37,10 @@ function chooseQuestionRandom() {
             title: "Juego finalizado",
             text:
                 "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas - 1),
-            icon: "success"
+                imageUrl: 'https://i.pinimg.com/originals/88/e4/68/88e468ff020370cac9186bbae6da30b1.gif',
+                imageWidth: 200,
+                imageHeight: 200,
+                imageAlt: 'Custom image',
             });
         }
         if (reiniciar_puntos_al_reiniciar_el_juego) {

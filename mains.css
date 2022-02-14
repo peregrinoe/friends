@@ -77,7 +77,6 @@
 
 .container{
     background: linear-gradient(to bottom, #8a6cc8, #f5e458);
-    height: 100vh;
     display: grid;
     grid-template-columns: .7fr 1.3fr;
     padding-top: 30px;
