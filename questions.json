@@ -18,5 +18,15 @@
         "incorrecta3":"Episodio 1, Temporada 2",
         "image":"https://imgix.bustle.com/rehost/2016/9/13/691782b9-d2fc-41f9-94ec-f3963f156092.png?w=800&fit=crop&crop=faces&auto=format%2Ccompress",
         "object_fit":"cover"
+    },
+    {   
+        "temporada":"Temporada 1",
+        "pregunta":"¿Por cuales de los siguientes novios de Monica. deja de fumar Chanderl?",
+        "respuesta":"Alan",
+        "incorrecta1":"Paul",
+        "incorrecta2":"Bob",
+        "incorrecta3":"Ethan",
+        "image":"https://i.pinimg.com/originals/2b/4c/dd/2b4cdd7873e88dc4a0db6d7e2bca8cc3.jpg",
+        "object_fit":"cover"
     }
 ]
