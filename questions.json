@@ -28,5 +28,35 @@
         "incorrecta3":"Ethan",
         "image":"https://i.pinimg.com/originals/2b/4c/dd/2b4cdd7873e88dc4a0db6d7e2bca8cc3.jpg",
         "object_fit":"cover"
+    },
+    {   
+        "temporada":"Temporada 1",
+        "pregunta":"¿Cuál es el primer regalo que le da Janice a Chandler?",
+        "respuesta":"Calcetines",
+        "incorrecta1":"Calzones",
+        "incorrecta2":"Guantes",
+        "incorrecta3":"Gorro",
+        "image":"https://i.pinimg.com/originals/2b/4c/dd/2b4cdd7873e88dc4a0db6d7e2bca8cc3.jpg",
+        "object_fit":"cover"
+    },
+    {   
+        "temporada":"Temporada 1",
+        "pregunta":"¿En donde fue el primer beso de Ross y Rachel?",
+        "respuesta":"Lavandería",
+        "incorrecta1":"Cafetería",
+        "incorrecta2":"Calle",
+        "incorrecta3":"Fiesta",
+        "image":"https://i.pinimg.com/originals/2b/4c/dd/2b4cdd7873e88dc4a0db6d7e2bca8cc3.jpg",
+        "object_fit":"cover"
+    },
+    {   
+        "temporada":"Temporada 1",
+        "pregunta":"¿Lugar mas extraño donde tuvo sexo Joey?",
+        "respuesta":"Biblioteca",
+        "incorrecta1":"Disneylandia",
+        "incorrecta2":"Billar",
+        "incorrecta3":"Milwakee",
+        "image":"https://i.pinimg.com/originals/2b/4c/dd/2b4cdd7873e88dc4a0db6d7e2bca8cc3.jpg",
+        "object_fit":"cover"
     }
 ]
