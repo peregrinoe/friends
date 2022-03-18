@@ -10,7 +10,9 @@ let btn_correspondiente = [
     select_id("btn1"),
     select_id("btn2"),
     select_id("btn3"),
-    select_id("btn4")
+    select_id("btn4"),
+    select_id("answerCorrect"),
+    select_id("answerIncorrect")
 ];
 let npreguntas = [];
 let preguntas_hechas = 1;
@@ -64,13 +66,16 @@ function chooseQuestion(n) {
     style("image").objectFit = pregunta.objectFit;
     randomizeQuestion(pregunta);
     if (pregunta.image) {
-        select_id("image").setAttribute("src", pregunta.image);
+      select_id("image").setAttribute("src", pregunta.image);
     }
     let pc = preguntas_correctas;
     if (preguntas_hechas > 1) {
       select_id("puntaje").innerHTML = pc + "/" + (preguntas_hechas - 1);
+      select_id("answerCorrect").setAttribute("src", pregunta.answerCorrect);
     } else {
       select_id("puntaje").innerHTML = "";
+      select_id("answerCorrect").setAttribute("src", pregunta.answerIncorrect);
+      select_id("answerIncorrect").setAttribute("src", pregunta.answerIncorrect);
     }
 }
 //Arreglo de botones
@@ -98,16 +103,17 @@ function oprimir_btn(i) {
     suspender_botones = true;
     if(posibles_respuestas[i]==pregunta.respuesta) {
         preguntas_correctas++;
-        btn_correspondiente[i].style.background = "#6fc36d"
-        btn_correspondiente[i].style.color = "white"
+        btn_correspondiente[i].style.background = "#6fc36d";
+        btn_correspondiente[i].style.color = "white";
     }
     else {
-        btn_correspondiente[i].style.background = "#d14848"
-        btn_correspondiente[i].style.color = "white"
+        btn_correspondiente[i].style.background = "#d14848";
+        btn_correspondiente[i].style.color = "white";
     }
     for (let j = 0; j < 4; j++) {
         if (posibles_respuestas[j] == pregunta.respuesta) {
           btn_correspondiente[j].style.background = "lightgreen";
+          btn_correspondiente[j].style.color = "white";
           break;
         }
     }
