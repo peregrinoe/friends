@@ -2,6 +2,8 @@
     {   
         "temporada":"Temporada 1",
         "pregunta":"¿En qué episodio aparece por primera vez Naked Guy?",
+        "ifverdadero":"Si es",
+        "ifalso":"No es",
         "respuesta":"Episodio 2, Temporada 1",
         "incorrecta1":"Episodio 1, Temporada 1",
         "incorrecta2":"Episodio 2, Temporada 2",
@@ -13,6 +15,8 @@
     {   
         "temporada":"Temporada 1",
         "pregunta":"¿En cual episodio menciona Phoebe a su hermana Úrsula?",
+        "ifverdadero":"Si es",
+        "ifalso":"No es",
         "respuesta":"Episodio 2, Temporada 1",
         "incorrecta1":"Episodio 1, Temporada 1",
         "incorrecta2":"Episodio 2, Temporada 2",
@@ -25,6 +29,8 @@
     {   
         "temporada":"Temporada 1",
         "pregunta":"¿Por cuales de los siguientes novios de Monica. deja de fumar Chanderl?",
+        "ifverdadero":"Si es",
+        "ifalso":"No es",
         "respuesta":"Alan",
         "incorrecta1":"Paul",
         "incorrecta2":"Bob",
@@ -36,17 +42,21 @@
     {   
         "temporada":"Temporada 1",
         "pregunta":"¿Cuál es el primer regalo que le da Janice a Chandler?",
+        "ifverdadero":"Si es",
+        "ifalso":"No es",
         "respuesta":"Calcetines",
         "incorrecta1":"Calzones",
         "incorrecta2":"Guantes",
         "incorrecta3":"Gorro",
         "image":"https://img.europapress.es/fotoweb/fotonoticia_20160823131922_420.jpg",
-        "answerCorrect":"https://www.nydailynews.com/resizer/_HKMNNS16hw8UPeLGDK2gmdFgh8=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/LSFM5P7ZUSEKBDDOTQH4CMIY7E.jpg",
+        "image2":"https://www.nydailynews.com/resizer/_HKMNNS16hw8UPeLGDK2gmdFgh8=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/LSFM5P7ZUSEKBDDOTQH4CMIY7E.jpg",
         "object_fit":"cover"
     },
     {   
         "temporada":"Temporada 1",
         "pregunta":"¿En donde fue el primer beso de Ross y Rachel?",
+        "ifverdadero":"Si es",
+        "ifalso":"No es",
         "respuesta":"Lavandería",
         "incorrecta1":"Cafetería",
         "incorrecta2":"Calle",
@@ -58,6 +68,8 @@
     {   
         "temporada":"Temporada 1",
         "pregunta":"¿Lugar mas extraño donde tuvo sexo Joey?",
+        "ifverdadero":"Si es",
+        "ifalso":"No es",
         "respuesta":"Biblioteca",
         "incorrecta1":"Disneylandia",
         "incorrecta2":"Billar",

@@ -204,16 +204,7 @@ span.yellow{
     max-height: 400px;
 }
 
-.answerCorrect{
-    border-radius: 20px;
-    margin-top: 40px;
-    background-size: cover;
-    background-position: center;
-    justify-self: center;
-    width: 95%;
-}
-
-.answerIncorrect{
+.image2{
     border-radius: 20px;
     margin-top: 40px;
     background-size: cover;

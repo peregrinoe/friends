@@ -10,7 +10,8 @@ let btn_correspondiente = [
     select_id("btn1"),
     select_id("btn2"),
     select_id("btn3"),
-    select_id("btn4")
+    select_id("btn4"),
+    select_id("ifverdadero")
 ];
 let npreguntas = [];
 let preguntas_hechas = 1;
@@ -90,6 +91,7 @@ function randomizeQuestion(pregunta) {
 }
 //
 //Oprimir Boton
+
 let suspender_botones = false;
 function oprimir_btn(i) {
     if (suspender_botones) {
@@ -99,7 +101,7 @@ function oprimir_btn(i) {
     if(posibles_respuestas[i]==pregunta.respuesta) {
         preguntas_correctas++;
         btn_correspondiente[i].style.background = "#6fc36d";
-        btn_correspondiente[i].style.color = "white";
+        btn_correspondiente[i].style.color = "white"; 
     }
     else {
         btn_correspondiente[i].style.background = "#d14848";
@@ -117,6 +119,7 @@ function oprimir_btn(i) {
       suspender_botones = false; 
     },1000);  
 }
+
 //Reiniciar colores
 function restartColors() {
     for (const btn of btn_correspondiente){
