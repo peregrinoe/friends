@@ -10,8 +10,7 @@ let btn_correspondiente = [
     select_id("btn1"),
     select_id("btn2"),
     select_id("btn3"),
-    select_id("btn4"),
-    select_id("ifverdadero")
+    select_id("btn4")
 ];
 let npreguntas = [];
 let preguntas_hechas = 1;
@@ -64,6 +63,12 @@ function chooseQuestion(n) {
     select_id("question").innerHTML = pregunta.pregunta;
     style("image").objectFit = pregunta.objectFit;
     randomizeQuestion(pregunta);
+    if (pregunta.respuesta == pregunta.respuesta) {
+      select_id("image2").setAttribute("src", pregunta.image2);
+    } 
+    if (pregunta.respuesta == pregunta.incorrecta1) {
+      select_id("image3").setAttribute("src", pregunta.image3);
+    }
     if (pregunta.image) {
       select_id("image").setAttribute("src", pregunta.image);
     }
