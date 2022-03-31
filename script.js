@@ -90,6 +90,10 @@ function randomizeQuestion(pregunta) {
 }
 //
 //Oprimir Boton
+let btn1Hover = document.getElementById("btn1");
+let btn2Hover = document.getElementById("btn2");
+let btn3Hover = document.getElementById("btn3");
+let btn4Hover = document.getElementById("btn4");
 
 let suspender_botones = false;
 function oprimir_btn(i) {
@@ -100,14 +104,15 @@ function oprimir_btn(i) {
     suspender_botones = true;
     if(posibles_respuestas[i]==pregunta.respuesta) {
         preguntas_correctas++;
-        select_id("ifverdadero").textContent = 'hola chiquita hermosa mi amor mi vida ';
+        select_id("ifverdadero").textContent = 'hola chiquita princesa mi amor';
         select_id("image2").setAttribute("src", pregunta.image2);
         btn_correspondiente[i].style.background = "#6fc36d";
         btn_correspondiente[i].style.color = "white"; 
     }
     else {
-        select_id("ifverdadero").textContent = 'Esta no es marrana ';
-        select_id("image2").setAttribute("src", pregunta.image3);
+        select_id("ifverdadero").textContent = 'Esta no es marrana';
+        select_id("image2").setAttribute("src", pregunta.image2);
+        btn_correspondiente[i].style.background = "#d14848";
         btn_correspondiente[i].style.color = "white";
     }
     for (let j = 0; j < 4; j++) {
@@ -122,6 +127,55 @@ function oprimir_btn(i) {
       suspender_botones = false; 
     },1000);  
 }
+
+let test1Hover = document.getElementById("btn1");
+let test2Hover = document.getElementById("btn2");
+let test3Hover = document.getElementById("btn3");
+let test4Hover = document.getElementById("btn4");
+
+test1Hover.addEventListener("mouseenter", function( event ) {
+  // highlight the mouseenter target
+  event.target.style.background = "#8a6cc8";
+  event.target.style.color = "white";
+  // reset the color after a short delay
+  setTimeout(function() {
+    event.target.style.background = "";
+    event.target.style.color = "";
+  }, 1000);
+}, false);
+
+test2Hover.addEventListener("mouseenter", function( event ) {
+  // highlight the mouseenter target
+  event.target.style.background = "#8a6cc8";
+  event.target.style.color = "white";
+  // reset the color after a short delay
+  setTimeout(function() {
+    event.target.style.background = "";
+    event.target.style.color = "";
+  }, 500);
+}, false);
+
+test3Hover.addEventListener("mouseenter", function( event ) {
+  // highlight the mouseenter target
+  event.target.style.background = "#8a6cc8";
+  event.target.style.color = "white";
+  // reset the color after a short delay
+  setTimeout(function() {
+    event.target.style.background = "";
+    event.target.style.color = "";
+  }, 1000);
+}, false);
+
+test4Hover.addEventListener("mouseenter", function( event ) {
+  // highlight the mouseenter target
+  event.target.style.background = "#8a6cc8";
+  event.target.style.color = "white";
+  // reset the color after a short delay
+  setTimeout(function() {
+    event.target.style.background = "";
+    event.target.style.color = "";
+  }, 1000);
+}, false);
 
 //Reiniciar colores
 function restartColors() {
