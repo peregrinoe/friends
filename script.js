@@ -63,12 +63,6 @@ function chooseQuestion(n) {
     select_id("question").innerHTML = pregunta.pregunta;
     style("image").objectFit = pregunta.objectFit;
     randomizeQuestion(pregunta);
-    if (pregunta.respuesta == pregunta.respuesta) {
-      select_id("image2").setAttribute("src", pregunta.image2);
-    } 
-    if (pregunta.respuesta == pregunta.incorrecta1) {
-      select_id("image3").setAttribute("src", pregunta.image3);
-    }
     if (pregunta.image) {
       select_id("image").setAttribute("src", pregunta.image);
     }
@@ -102,14 +96,18 @@ function oprimir_btn(i) {
     if (suspender_botones) {
         return;
     }
+
     suspender_botones = true;
     if(posibles_respuestas[i]==pregunta.respuesta) {
         preguntas_correctas++;
+        select_id("ifverdadero").textContent = 'hola chiquita hermosa mi amor mi vida ';
+        select_id("image2").setAttribute("src", pregunta.image2);
         btn_correspondiente[i].style.background = "#6fc36d";
         btn_correspondiente[i].style.color = "white"; 
     }
     else {
-        btn_correspondiente[i].style.background = "#d14848";
+        select_id("ifverdadero").textContent = 'Esta no es marrana ';
+        select_id("image2").setAttribute("src", pregunta.image3);
         btn_correspondiente[i].style.color = "white";
     }
     for (let j = 0; j < 4; j++) {
