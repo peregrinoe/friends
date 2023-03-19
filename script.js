@@ -111,7 +111,7 @@ function oprimir_btn(i) {
     }
     else {
         select_id("ifverdadero").textContent = 'Esta no es marrana';
-        select_id("image2").setAttribute("src", pregunta.image2);
+        select_id("image2").setAttribute("src", pregunta.image3);
         btn_correspondiente[i].style.background = "#d14848";
         btn_correspondiente[i].style.color = "white";
     }
