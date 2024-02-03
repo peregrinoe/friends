@@ -85,6 +85,7 @@
     display: grid;
     grid-template-columns: .7fr 1.3fr;
     padding-top: 30px;
+    min-height: 100vh; 
 }
 
 .container-body-potter{
@@ -113,6 +114,7 @@
     border-bottom-left-radius: 20px;
     padding: 40px;
     width: 90%;
+    height: 75%;
     margin-top: 50px;
     margin-left: auto;
     margin-bottom: 30px;
@@ -157,8 +159,9 @@ span.yellow{
     display: grid;
     background-color: #fefefe;
     border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     box-shadow: 5px 5px 20px #222222b0;
-
+    height: 85%;
 }
 
 .container-right-items{
@@ -196,6 +199,10 @@ span.yellow{
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.container-true{
+    margin: auto 20px;
 }
    
 .image{
