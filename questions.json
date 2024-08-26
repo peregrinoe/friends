@@ -82,5 +82,34 @@
         "image2":"https://cinematicos.net/wp-content/uploads/La-escena-de-Joey-en-Friends-que-fue-demasiado-lejos.jpg",
         "image3":"https://elcomercio.pe/resizer/7Any8AtncPmd7avMfZrDfPAcfYM=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/N3ZVSNULUNC2HFHKXH3SW4Y3OQ.jpg",
         "object_fit":"cover"
+    },
+    {   
+        "temporada":"Temporada 3",
+        "pregunta":"Mónica sale brevemente con el multimillonario Pete Becker. ¿En qué país la lleva a su primera cita?",
+        "ifverdadero":"Si es",
+        "ifalso":"No es",
+        "respuesta":"Biblioteca",
+        "incorrecta1":"Disneylandia",
+        "incorrecta2":"Billar",
+        "incorrecta3":"Milwakee",
+        "image":"https://www.rockandpop.cl/wp-content/uploads/2021/03/EUZAHzWXYAUIhfB-768x576.jpg",
+        "image2":"https://cinematicos.net/wp-content/uploads/La-escena-de-Joey-en-Friends-que-fue-demasiado-lejos.jpg",
+        "image3":"https://elcomercio.pe/resizer/7Any8AtncPmd7avMfZrDfPAcfYM=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/N3ZVSNULUNC2HFHKXH3SW4Y3OQ.jpg",
+        "object_fit":"cover"
+    },
+    {   
+        "temporada":"Temporada 1",
+        "pregunta":"Rachel era popular en la escuela secundaria. ¿Su cita en el baile de graduación Chip la abandonó por cuál chica en la escuela?",
+        "ifverdadero":"Si es",
+        "ifalso":"No es",
+        "respuesta":"Biblioteca",
+        "incorrecta1":"Disneylandia",
+        "incorrecta2":"Billar",
+        "incorrecta3":"Milwakee",
+        "image":"https://www.rockandpop.cl/wp-content/uploads/2021/03/EUZAHzWXYAUIhfB-768x576.jpg",
+        "image2":"https://cinematicos.net/wp-content/uploads/La-escena-de-Joey-en-Friends-que-fue-demasiado-lejos.jpg",
+        "image3":"https://elcomercio.pe/resizer/7Any8AtncPmd7avMfZrDfPAcfYM=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/N3ZVSNULUNC2HFHKXH3SW4Y3OQ.jpg",
+        "object_fit":"cover"
     }
+
 ]

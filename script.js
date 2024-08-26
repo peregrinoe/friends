@@ -104,13 +104,13 @@ function oprimir_btn(i) {
     suspender_botones = true;
     if(posibles_respuestas[i]==pregunta.respuesta) {
         preguntas_correctas++;
-        select_id("ifverdadero").textContent = 'hola chiquita princesa mi amor';
+        select_id("ifverdadero").textContent = pregunta.ifverdadero;
         select_id("image2").setAttribute("src", pregunta.image2);
         btn_correspondiente[i].style.background = "#6fc36d";
         btn_correspondiente[i].style.color = "white"; 
     }
     else {
-        select_id("ifverdadero").textContent = 'Esta no es marrana';
+        select_id("ifverdadero").textContent = pregunta.ifalso;
         select_id("image2").setAttribute("src", pregunta.image3);
         btn_correspondiente[i].style.background = "#d14848";
         btn_correspondiente[i].style.color = "white";
