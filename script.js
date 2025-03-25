@@ -194,19 +194,14 @@ function style(id) {
     return select_id(id).style
 }
 // Leer texto en ruta local
-function readText(ruta_local) {
-    return fetch(ruta_local)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Error al cargar el archivo');
-            }
-            return response.text();  // Convertir la respuesta a texto
-        })
-        .then(texto => {
-            return texto;  // Devolver el texto obtenido
-        })
-        .catch(error => {
-            console.error('Ha ocurrido un error:', error);
-            return null;  // En caso de error, devolver null
-        });
-}
+// Leer texto en ruta local
+ function readText(ruta_local){
+     var texto = null;
+     var xmlhttp = new XMLHttpRequest();
+     xmlhttp.open("GET", ruta_local, false);
+     xmlhttp.send();
+     if (xmlhttp.status == 200) {
+         texto = xmlhttp.responseText;
+     }
+     return texto;
+ }
